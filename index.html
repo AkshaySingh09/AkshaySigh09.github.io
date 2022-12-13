@@ -1,43 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Lighthouse Island Bistro</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="bistro.css" rel="stylesheet">
-</head>
-<body>
-<div id="wrapper">  
-  <nav><ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="coffee.html">Coffee</a></li>
-    <li><a href="cuisine.html">Cuisine</a>
-      <ul><li><a href="breakfast.html">Breakfast</a></li>
-        <li><a href="lunch.html">Lunch</a></li>
-        <li><a href="dinner.html">Dinner</a></li>
-      </ul></li><li><a href="directions.html">Directions</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <header>
-      <h1>Lighthouse Island Bistro</h1>
-   <span>the best coffee on the coast</span>
-  </header>  
-   <main> 
-   	<h2>Locally Roasted Free-Trade Coffee</h2>
-    <p>Indulge in the aroma of freshly ground roast coffee. Specialty drinks are available hot or cold.</p>
-    <h2>Specialty Pastries</h2>
-    <p>Enjoy a selection of our fresh-baked, organic pastries, including 
-  fresh-fruit muffins, scones, croissants, and cinnamon rolls.</p>
-  	<h2>Lunch and Light Dinners</h2>
-    <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
-    <h2>Panoramic View</h2>
-	<p>Take in some scenery!</p>
-	<p>The top of our lighthouse offers a panoramic view of the countryside. Challenge your friends to climb our 100-stair tower.</p>
-   </main> 
-   <footer>Copyright &copy; 2022 </footer>
-  </div> 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Application Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply_box">
+        <h1>
+          Career Application
+        </h1>
+        <form action="">
+          <div class="form_container">
+            <div class="form_control">
+              <label for="first_name"> First Name </label>
+              <input
+                id="first_name"
+                name="first_name"
+                placeholder="Enter Your First Name Here"
+              />
+            </div>
+            <div class="form_control">
+              <label for="last_name"> Last Name </label>
+              <input
+                id="last_name"
+                name="last_name"
+                placeholder="Enter Your Last Name Here"
+              />
+            </div>
+            <div class="form_control">
+              <label for="Phone_Number"> Phone Number </label>
+              <input
+                type="Phone_Number"
+                id="Phone_Number"
+                name="Phone_Number"
+                placeholder="Enter Your Phone Number Here"
+              />
+            </div>
+			
+		 <div class="form_control">
+              <label for="Experience"> Experience </label>
+              <select id="Experience" name="Experience">
+                <option value="">Total Experience in Years</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3 or More</option>
+              </select>
+            </div>
+			
+            <div class="form_control">
+              <label for="job_role"> Job Role </label>
+              <select id="job_role" name="job_role">
+                <option value="">Select Job Role</option>
+                <option value="Android">Android Developer</option>
+                <option value="backend">Backend Developer</option>
+				<option value="DBA">DBA</option>
+                <option value="full_stack">Full Stack Developer</option>
+                <option value="ui_ux">UI UX Designer</option>
+				<option value="Technical">Technical Support</option>
+				<option value="Net_Admin">Network Administrator</option>
+				<option value="Cloud">Cloud Engineer</option>
+              </select>
+            </div>
+			
+			<div class="form_control">
+              <label for="Location"> Location </label>
+              <select id="Location" name="Location">
+                <option value="">Select Desired Location</option>
+                <option value="Thunder">Thunder Bay, ON</option>
+                <option value="Toronto">Toronto, ON</option>
+                <option value="Vancouver">Vancouver, BC</option>
+                <option value="Calgary">Calgary, AB</option>
+				<option value="Canada">Canada</option>
+              </select>
+            </div>
+			
+            <div class="textarea_control">
+              <label for="address"> Address </label>
+              <textarea
+                id="address"
+                name="address"
+                row="4"
+                cols="50"
+                placeholder="Enter Address"
+              ></textarea>
+            </div>
+            <div class="form_control">
+              <label for="city"> City </label>
+              <input id="city" name="city" placeholder="Enter City Name..." />
+            </div>
+            <div class="form_control">
+              <label for="pincode"> Pincode </label>
+              <input
+                type="number"
+                id="pincode"
+                name="pincode"
+                placeholder="Enter Pincode Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="date"> Date </label>
+              <input value="2022-01-10" type="date" id="date" name="date" />
+            </div>
+            <div class="form_control">
+              <label for="upload"> Upload Your CV </label>
+              <input type="file" id="upload" name="upload" />
+            </div>
+          </div>
+          <div class="button_container">
+            <button type="submit">Apply Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
-
-
